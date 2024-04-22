@@ -14,24 +14,28 @@ export default function Services() {
 
       <div className="services__cards">
         <ServiceCard
-          title="Search engine optimization"
+          title="Search engine"
+          subtitle="optimization"
           imgUrl="/search.png"
-          color={'light'}
+          color="light"
         />
         <ServiceCard
-          title="Social media marketing"
+          title="Social media"
+          subtitle="marketing"
           imgUrl="/socials.png"
-          color={'light'}
+          color="dark"
         />
         <ServiceCard
-          title="Pay per click advertising"
+          title="Pay per click"
+          subtitle="advertising"
           imgUrl="/click.png"
-          color={'light'}
+          color="dark"
         />
         <ServiceCard
-          title="E-mail marketing"
+          title="E-mail"
+          subtitle="marketing"
           imgUrl="/mail.png"
-          color={'light'}
+          color="light"
         />
       </div>
     </div>
