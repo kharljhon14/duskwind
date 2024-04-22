@@ -5,7 +5,7 @@ import Sponsors from './features/sponsors/Sponsors';
 
 export default function App() {
   return (
-    <div>
+    <div className="app">
       <Header />
       <Hero />
       <Sponsors />

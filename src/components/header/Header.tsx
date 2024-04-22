@@ -1,3 +1,4 @@
+import { SiPolestar } from 'react-icons/si';
 import './header.css';
 
 export default function Header() {
@@ -5,6 +6,7 @@ export default function Header() {
     <header className="header">
       <div className="logo-container">
         <a href="/">
+          <SiPolestar />
           <h1>Duskwind</h1>
         </a>
       </div>
