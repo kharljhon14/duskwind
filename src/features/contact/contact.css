@@ -1,0 +1,58 @@
+.contact {
+    background-color: #f3f3f3;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    margin: 15rem 0;
+
+    & .contact__header {
+
+        & h3 {
+            font-size: 3.6rem;
+            font-weight: 500;
+        }
+
+        & p {
+            text-wrap: balance;
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 2.6rem;
+            width: 60rem;
+
+        }
+
+        & button {
+            background-color: #000;
+            color: #FFF;
+            border: 1px solid #000;
+            border-radius: .6rem;
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding: 1.6rem 2rem;
+            cursor: pointer;
+        }
+
+        &>* {
+            margin-bottom: 3rem;
+        }
+
+        & :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    & .contact__img {
+        position: relative;
+        width: 100%;
+        height: inherit;
+
+        & img {
+            width: 50rem;
+            position: absolute;
+            right: 0;
+            top: -30rem;
+        }
+    }
+}
