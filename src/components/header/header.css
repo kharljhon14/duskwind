@@ -37,6 +37,21 @@
             margin-right: 3rem;
             font-size: 1.6rem;
             font-weight: 500;
+            position: relative;
+        }
+
+        & li::before {
+            content: "";
+            height: 1px;
+            width: 0%;
+            position: absolute;
+            background-color: #000;
+            bottom: -.5rem;
+            transition: all .3s ease;
+        }
+
+        & li:hover::before {
+            width: 100%;
         }
     }
 
@@ -49,6 +64,12 @@
             font-weight: 500;
             padding: 1.6rem 2rem;
             cursor: pointer;
+            transition: all .3s ease;
+        }
+
+        & button:hover {
+            background-color: #000;
+            color: #FFF;
         }
     }
 }

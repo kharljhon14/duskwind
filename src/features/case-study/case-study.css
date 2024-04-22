@@ -38,14 +38,14 @@
             font-size: 1.6rem;
             line-height: 2.8rem;
 
-
-
             & a {
                 color: #ff725e;
                 text-decoration: none;
                 font-size: 1.8rem;
                 display: flex;
                 align-items: center;
+                width: fit-content;
+
 
                 & .case-study__content__icon {
                     font-size: 3rem;
