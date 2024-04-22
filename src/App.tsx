@@ -1,4 +1,5 @@
 import Header from './components/header/Header';
+import CaseStudy from './features/case-study/CaseStudy';
 import Contact from './features/contact/Contact';
 import Hero from './features/hero/Hero';
 import Services from './features/services/Services';
@@ -12,6 +13,7 @@ export default function App() {
       <Sponsors />
       <Services />
       <Contact />
+      <CaseStudy />
     </div>
   );
 }

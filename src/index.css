@@ -135,6 +135,11 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
   margin: 0 10rem;
+  overflow-x: hidden;
+}
+
+body {
+  margin-bottom: 8rem;
 }
 
 button {
