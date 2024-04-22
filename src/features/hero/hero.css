@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    align-content: center;
+
+    & .content {
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-wrap: balance;
+
+        & h1 {
+            font-size: 8.8rem;
+        }
+
+        & p {
+            font-size: 2.6rem;
+            line-height: 4rem;
+        }
+
+        & button {
+            background-color: #000;
+            color: #FFF;
+            border: 1px solid #000;
+            border-radius: .6rem;
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding: 1.2rem 2rem;
+            cursor: pointer;
+        }
+
+        &>* {
+            margin-bottom: 3rem;
+        }
+
+        & :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    & .img {
+        flex: 1;
+
+        & img {
+            width: 100%;
+        }
+    }
+}

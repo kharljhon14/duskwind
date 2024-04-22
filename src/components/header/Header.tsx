@@ -30,7 +30,7 @@ export default function Header() {
       </nav>
 
       <div className="cta-container">
-        <button>Request a Quote</button>
+        <button>Request a quote</button>
       </div>
     </header>
   );
