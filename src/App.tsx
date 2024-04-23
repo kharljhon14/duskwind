@@ -13,7 +13,7 @@ export default function App() {
       <Sponsors />
       <Services />
       <Contact />
-      {/* <CaseStudy /> */}
+      <CaseStudy />
     </div>
   );
 }
