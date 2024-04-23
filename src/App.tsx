@@ -12,8 +12,8 @@ export default function App() {
       <Hero />
       <Sponsors />
       <Services />
-      {/* <Contact />
-      <CaseStudy /> */}
+      <Contact />
+      {/* <CaseStudy /> */}
     </div>
   );
 }

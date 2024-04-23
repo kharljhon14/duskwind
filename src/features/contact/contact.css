@@ -64,3 +64,22 @@
         }
     }
 }
+
+@media(max-width: 1220px) {
+    .contact {
+
+
+        & .contact__header {
+
+            & p {
+                text-wrap: wrap;
+                width: 100%;
+
+            }
+        }
+
+        & .contact__img {
+            display: none;
+        }
+    }
+}
