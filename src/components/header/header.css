@@ -40,6 +40,10 @@
             position: relative;
         }
 
+        & li:hover a {
+            color: #ff725e
+        }
+
         & li::before {
             content: "";
             height: 1px;
