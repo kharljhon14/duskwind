@@ -4,7 +4,29 @@
     justify-content: space-between;
     margin: 15rem 0;
 
+
     & img {
         width: 18rem;
+    }
+}
+
+@media(max-width: 1120px) {
+    .sponsors {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & img {
+            width: 18rem;
+        }
+
+        &>* {
+            margin: 5rem 2rem;
+        }
+    }
+}
+
+@media(max-width: 830px) {
+    .sponsors {
+        margin: 5rem 0;
     }
 }

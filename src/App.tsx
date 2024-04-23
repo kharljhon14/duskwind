@@ -10,8 +10,8 @@ export default function App() {
     <div className="app">
       <Header />
       <Hero />
-      {/* <Sponsors />
-      <Services />
+      <Sponsors />
+      {/* <Services />
       <Contact />
       <CaseStudy /> */}
     </div>
