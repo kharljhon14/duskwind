@@ -128,3 +128,44 @@
         }
     }
 }
+
+@media(max-width: 1440px) {
+    .service-card {
+        & .service-card__header {
+            & h3 {
+                font-size: 2.2rem;
+                width: 18rem;
+
+            }
+
+            & a {
+                display: flex;
+                align-items: center;
+                font-size: 1.6rem;
+                text-decoration: none;
+                font-weight: 500;
+                width: fit-content;
+
+                & .service-card__header__icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 3rem;
+                    height: 4rem;
+                    width: 4rem;
+                    border-radius: 100%;
+                    margin-right: 2rem;
+                }
+
+            }
+        }
+
+        & .service-card__img {
+
+
+            & img {
+                width: 18rem;
+            }
+        }
+    }
+}
