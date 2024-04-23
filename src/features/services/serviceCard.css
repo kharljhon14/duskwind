@@ -32,6 +32,7 @@
             font-size: 1.6rem;
             text-decoration: none;
             font-weight: 500;
+            width: fit-content;
 
             & .service-card__header__icon {
                 display: flex;
@@ -71,12 +72,24 @@
 
     & a {
         color: #000;
+        transition: all .3s ease;
 
         & .service-card__header__icon {
             color: #ff725e;
             background-color: #000;
+            transition: all .6s ease;
         }
+    }
 
+    & a:hover {
+
+        color: #ff725e;
+        font-size: 1.8rem;
+
+        & .service-card__header__icon {
+            font-size: 3.8rem;
+            transform: rotateZ(410deg);
+        }
     }
 }
 
@@ -95,10 +108,23 @@
 
     & a {
         color: #FFF;
+        transition: all .3s ease;
 
         & .service-card__header__icon {
             color: #000;
             background-color: #FFF;
+            transition: all .6s ease;
+        }
+    }
+
+    & a:hover {
+
+        color: #ff725e;
+        font-size: 1.8rem;
+
+        & .service-card__header__icon {
+            font-size: 3.8rem;
+            transform: rotateZ(410deg);
         }
     }
 }
