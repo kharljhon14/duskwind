@@ -145,3 +145,15 @@ body {
 button {
   font-family: "Montserrat", sans-serif;
 }
+
+@media(max-width: 890px) {
+  html {
+    margin: 0 5rem;
+  }
+}
+
+@media(max-width: 630px) {
+  html {
+    margin: 0 2rem;
+  }
+}
