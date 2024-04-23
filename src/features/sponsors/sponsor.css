@@ -14,6 +14,7 @@
     .sponsors {
         flex-wrap: wrap;
         justify-content: center;
+        margin: 10rem 0;
 
         & img {
             width: 18rem;

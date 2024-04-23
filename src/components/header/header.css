@@ -77,3 +77,12 @@
         }
     }
 }
+
+@media(max-width: 1120px) {
+    .header {
+        & nav {
+            display: none;
+
+        }
+    }
+}
